@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -83,10 +84,10 @@ const MovieDetail = () => {
       <main className="container mx-auto px-4 py-8">
         <div className="grid md:grid-cols-3 gap-8">
           <div className="md:col-span-2">
-            <h3 className="text-xl font-bold mb-4">Synopsis</h3>
+            <h3 className="text-xl font-bold mb-4 text-white">Synopsis</h3>
             <p className="text-gray-300 mb-8">{movie.description}</p>
             
-            <h3 className="text-xl font-bold mb-4">Showtimes</h3>
+            <h3 className="text-xl font-bold mb-4 text-white">Showtimes</h3>
             
             {/* Date selector */}
             <div className="flex gap-2 overflow-x-auto pb-4 mb-6">
@@ -109,7 +110,7 @@ const MovieDetail = () => {
                   <Link to={`/select-seats/${show.id}`} key={show.id}>
                     <Card className="cursor-pointer hover:bg-gray-800 bg-gray-900 border border-gray-700">
                       <CardContent className="p-4 text-center">
-                        <p className="font-bold mb-2">{format(new Date(show.showDateTime), 'h:mm a')}</p>
+                        <p className="font-bold mb-2 text-white">{format(new Date(show.showDateTime), 'h:mm a')}</p>
                         <p className="text-sm text-gray-400">{show.availableSeats} seats left</p>
                       </CardContent>
                     </Card>
@@ -126,8 +127,8 @@ const MovieDetail = () => {
           <div>
             <Card className="bg-gray-900 border border-gray-800">
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold mb-4">Movie Details</h3>
-                <div className="space-y-4">
+                <h3 className="text-xl font-bold mb-4 text-white">Movie Details</h3>
+                <div className="space-y-4 text-white">
                   <div>
                     <p className="text-gray-400">Director</p>
                     <p>Christopher Nolan</p>
