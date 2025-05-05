@@ -126,7 +126,7 @@ const SeatSelection = () => {
             <ChevronLeft className="h-5 w-5 mr-2" />
             <span className="font-semibold">Back to Movie</span>
           </Link>
-          <h1 className="text-2xl font-bold text-red-600">MovieSeat Serenade</h1>
+          <h1 className="text-2xl font-bold text-red-600">CineTicket</h1>
         </div>
       </header>
 
@@ -178,7 +178,7 @@ const SeatSelection = () => {
                     max={20}
                     value={groupSize}
                     onChange={handleGroupSizeChange}
-                    className="w-20"
+                    className="w-20 text-black"
                   />
                   <Button onClick={handleGroupSeating} className="ml-auto bg-red-600 hover:bg-red-700">
                     Find Group Seats

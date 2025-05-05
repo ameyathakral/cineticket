@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -56,7 +55,7 @@ const MovieDetail = () => {
             <ChevronLeft className="h-5 w-5 mr-2" />
             <span className="font-semibold">Back to Movies</span>
           </Link>
-          <h1 className="text-2xl font-bold text-red-600">MovieSeat Serenade</h1>
+          <h1 className="text-2xl font-bold text-red-600">CineTicket</h1>
         </div>
       </header>
 
@@ -70,7 +69,7 @@ const MovieDetail = () => {
         />
         <div className="absolute bottom-0 left-0 right-0 p-8">
           <div className="container mx-auto">
-            <h2 className="text-4xl font-bold mb-2">{movie.title}</h2>
+            <h2 className="text-4xl font-bold mb-2 text-white">{movie.title}</h2>
             <div className="flex items-center gap-4 mb-4">
               <span className="px-2 py-1 border border-white rounded text-sm">{movie.rating}</span>
               <span>{movie.duration}</span>

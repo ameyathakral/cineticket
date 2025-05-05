@@ -14,7 +14,7 @@ const Index = () => {
       {/* Header */}
       <header className="py-6 border-b border-gray-800">
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <h1 className="text-2xl font-bold text-red-600">MovieSeat Serenade</h1>
+          <h1 className="text-2xl font-bold text-red-600">CineTicket</h1>
           <div className="flex gap-4">
             <Link to="/login">
               <Button variant="outline" className="border-red-600 text-red-600 hover:bg-red-600 hover:text-white">
@@ -49,7 +49,7 @@ const Index = () => {
       {/* Footer */}
       <footer className="py-6 border-t border-gray-800">
         <div className="container mx-auto px-4 text-center text-gray-400">
-          <p>© 2025 MovieSeat Serenade. All rights reserved.</p>
+          <p>© 2025 CineTicket. All rights reserved.</p>
         </div>
       </footer>
     </div>
