@@ -46,7 +46,7 @@ const Login = () => {
     // For now, just pretend we logged in successfully
     toast({
       title: "Login successful",
-      description: "Welcome back to MovieSeat Serenade!",
+      description: "Welcome back to CineTicket!",
     });
     
     // Navigate to home page
@@ -62,7 +62,7 @@ const Login = () => {
             <ChevronLeft className="h-5 w-5 mr-2" />
             <span className="font-semibold">Back to Home</span>
           </Link>
-          <h1 className="text-2xl font-bold text-red-600">MovieSeat Serenade</h1>
+          <h1 className="text-2xl font-bold text-red-600">CineTicket</h1>
         </div>
       </header>
 

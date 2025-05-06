@@ -53,7 +53,7 @@ const Register = () => {
     // For now, just pretend we registered successfully
     toast({
       title: "Registration successful",
-      description: "Welcome to MovieSeat Serenade!",
+      description: "Welcome to CineTicket!",
     });
     
     // Navigate to login page
@@ -69,7 +69,7 @@ const Register = () => {
             <ChevronLeft className="h-5 w-5 mr-2" />
             <span className="font-semibold">Back to Home</span>
           </Link>
-          <h1 className="text-2xl font-bold text-red-600">MovieSeat Serenade</h1>
+          <h1 className="text-2xl font-bold text-red-600">CineTicket</h1>
         </div>
       </header>
 
